@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <div class="d-flex flex-column flex-grow-1 ">
+      <div class="container my-5">
+        <div>
+          <a href="/" class="logo">
+            <img
+              src="images/logo2.png"
+              width="120"
+              class="img-fluid mx-auto d-block"
+              alt=""
+            />
+          </a>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="login-box m-auto mt-5 col-4">
+            <h3 class="text-center">Login</h3>
+            <form class="" >
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control custom-focus"
+                  placeholder="Email"
+                  required=""
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control custom-focus"
+                  placeholder="password"
+                  required=""
+                  minlength="6"
+                />  
+              </div>
+
+              <div class="d-grid ">
+                <a href="index.html" type="submit" class="btn btn-dark">Log In</a>
+              </div>
+            </form>
+            <a href="signup.html">Don't have an account? Create One</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="bg-dark text-white pt-5 pb-2 footer-section">
+      <div class="container">
+        <div class="row">
+
+          <!-- Social Media Links -->
+          <div class="col-md-4 mb-3">
+            <img src="images/white-logo.png" width="120" alt="" />
+            <h5 class="mt-4">Follow Us</h5>
+            <div class="d-flex justify-content-start">
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-facebook social-links"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-twitter social-links"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-instagram social-links"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-linkedin social-links"></i>
+              </a>
+              <a href="#" class="text-white me-3">
+                <i class="bi bi-youtube social-links"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Menu Links  -->
+          <div class="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#Shop" class="text-white text-decoration-none">Shop</a>
+              </li>
+              <li>
+                <a href="#About" class="text-white text-decoration-none"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#Contact" class="text-white text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="login.html" class="text-white text-decoration-none"
+                  >Login/SignUp</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Newsletter  -->
+          <div class="col-md-4 mb-3 newsletter">
+            <h5>Subscribe to Our Newsletter</h5>
+            <p>Get updates and offers from us. Enter your email below:</p>
+            <form action="#" method="post" class="d-flex">
+              <input
+                type="email"
+                class="form-control custom-focus me-2"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit" class="btn btn-dark">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <hr class="bg-white" />
+
+        <div class="text-center">
+          <p>&copy; 2024 Dokaan. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!-- End of Footer -->
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

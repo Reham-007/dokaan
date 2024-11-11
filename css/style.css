@@ -1,0 +1,91 @@
+*{
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+.custom-navbar{
+    background: #fff;
+}
+.custom-navbar ul li {
+    
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 10px;
+    transition: 300ms;
+}
+.custom-navbar ul li a{
+    color: black;
+}
+.custom-navbar ul li:hover {
+    font-size: 20px;
+    transition: 300ms;
+    
+}
+.custom-navbar .form-control{
+    width: 400px;
+}
+
+.custom-focus:focus{
+    border-color: black !important;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px !important;
+
+}
+
+.top-banner,
+.sale-container{
+    background-color: #f7f7f7;
+}
+
+.feature-container{
+    border-radius: 50px;
+    
+}
+.feature-container:hover{
+    box-shadow: 6px 0px 10px #ccc;
+}
+
+
+.sale-container img,
+.mall-container img {
+    height: 200px;
+}
+.card-body:hover{
+    box-shadow: 6px 0px 10px #ccc;
+    cursor: pointer;
+
+}
+
+.card-title{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.card-price{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card-text{
+    font-size: 12px;
+}
+
+.heading-title{
+    font-size: 3rem;
+    color: black
+
+}
+
+.description{
+    font-size:22px ;
+    color: #333;
+}
+
+
+.newsletter .btn-dark{
+    border-color: #424649;
+}
+
+.social-links{
+    font-size: 1.5rem;
+}
+.social-links:hover{
+    color: #00bcd4;
+
+}
